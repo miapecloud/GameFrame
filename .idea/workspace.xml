@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd8343e7-5e05-4ce6-8f08-8f146b6918f5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/AdminManager.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Applications/YourApp/start_register.php" afterPath="$PROJECT_DIR$/Applications/YourApp/start_register.php" />
+    </list>
+    <ignored path="myGame.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="myGame" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>123</find>
+      <find>current</find>
+      <find>recordDaPaiResult</find>
+      <find>playermoPai</find>
+      <find>recordHuPai</find>
+      <find>operationTime</find>
+      <find>moPaiResult</find>
+      <find>createMaJongRoom</find>
+      <find>$operationTime</find>
+      <find>createRoom</find>
+      <find>0x0a009</find>
+      <find>0x0a010</find>
+      <find>kouFei</find>
+      <find>disconnect</find>
+      <find>playerMoPai</find>
+      <find>player</find>
+      <find>$REALNAME_RESPONSE</find>
+      <find>moPai</find>
+      <find>实名</find>
+      <find>playerHu</find>
+      <find>playerGangPai</find>
+      <find>0x10b010</find>
+      <find>$DISBAND_VOTE_RESPONSE</find>
+      <find>GuoSHOU</find>
+      <find>playergangPai</find>
+      <find>playerHuPai</find>
+      <find>ziMoHu</find>
+      <find>sin</find>
+      <find>touzi</find>
+      <find>create</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>userOpenId</replace>
+      <replace>public</replace>
+      <replace>$glodVo-&gt;glod</replace>
+      <replace>gold</replace>
+      <replace>$status,$gameType,</replace>
+      <replace>\n</replace>
+      <replace>3EF4B4</replace>
+      <replace>16A085</replace>
+      <replace>startIndex</replace>
+      <replace>touZi</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJang/MaJongRoom.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJang/MaJongRoomLogic.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJang/MaJongRoomManager.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJang/MaJongRoomRecorder.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/ClientRequestProcess.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/MaJongGameTest.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongPlayer.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongProcessor.php" />
+        <option value="$USER_HOME$/Documents/NetSarang/Xftp/Temporary/screen.css" />
+        <option value="$USER_HOME$/Documents/NetSarang/Xftp/Temporary/screen [2].css" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Config/Db.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/test.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJong_ConnectAPI.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Module/System.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/账户管理.url" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Module/MaJongStep.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Module/MaJongRecord.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/start_businessworker.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/start_register.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongLogic.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Module/Record.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoomRecorder.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongContext.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Protocols/GameProtocol.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/start_gateway.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Context/ConnectAPI.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Log/Log.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Context/RoomType.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Context/ErrorCode.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Module/User.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/Room.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/RoomManager.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoomManager.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongManager.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuCard.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuManager.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuRoom.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuRoomManager.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Player/MaJongPlayer.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Player/NiuNiuPlayer.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Player/PlayerAvatar.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Player/Player.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/ServerContext.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/NiuNiuRequestProcess.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/MaJongRequestProcess.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Context/GameType.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/PublicRequestProcess.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/GameServer.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Game/Server/ServerResponse.php" />
+        <option value="$PROJECT_DIR$/Applications/YourApp/Events.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Player" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Object" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameFrame" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Context" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ChessGameServer\Applications\YourApp\Game\Object" />
+      <recent name="E:\ChessGameServer\Applications\YourApp\Game\Object\NiuNiu" />
+      <recent name="C:\Users\zlkmu\Desktop\myGame\Applications\YourApp\Game" />
+      <recent name="C:\Users\zlkmu\Desktop\myGame\Applications\YourApp\adodb5" />
+      <recent name="C:\Users\zlkmu\Desktop\myGame\Applications\YourApp\Game\Server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ChessGameServer\Applications\YourApp\Game\Module" />
+      <recent name="C:\ChessGameServer\Applications\YourApp\Game\Object\MaJong" />
+      <recent name="E:\ChessGameServer\Applications\YourApp\Game\Object\MaJong" />
+      <recent name="E:\ChessGameServer\Applications\YourApp\Game\Server" />
+      <recent name="E:\ChessGameServer\Applications\YourApp\Game\Player" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.GameServer.php">
+    <configuration default="false" name="MaJongGameTest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Applications/YourApp/Game/MaJongGameTest.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myGame/Applications/YourApp/Game/GameTest.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="NiuNiuManager.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DouNiuShiServer/Applications/YourApp/Game/Object/NiuNiuManager.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="GameServer.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GameFrame/Applications/YourApp/Game/Server/GameServer.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest.php (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/DouNiuShiServer/Applications/YourApp/Game/GameTest.php">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.GameTest.php (1)" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.MaJongGameTest.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.GameTest.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.NiuNiuManager.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.GameServer.php" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.GameServer.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.NiuNiuManager.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.GameTest.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd8343e7-5e05-4ce6-8f08-8f146b6918f5" name="Default" comment="" />
+      <created>1505319473323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505319473323</updated>
+      <workItem from="1505319474524" duration="2063000" />
+      <workItem from="1505355438099" duration="3253000" />
+      <workItem from="1505880289754" duration="831000" />
+      <workItem from="1505906641068" duration="102000" />
+      <workItem from="1505919986381" duration="2656000" />
+      <workItem from="1505959407476" duration="3031000" />
+      <workItem from="1506057060384" duration="1492000" />
+      <workItem from="1506394029163" duration="3640000" />
+      <workItem from="1506486086859" duration="23000" />
+      <workItem from="1506486354030" duration="1289000" />
+      <workItem from="1506563431335" duration="6008000" />
+      <workItem from="1507015356134" duration="4614000" />
+      <workItem from="1507085961690" duration="16069000" />
+      <workItem from="1507170063499" duration="10713000" />
+      <workItem from="1507257838925" duration="18941000" />
+      <workItem from="1507349698290" duration="23751000" />
+      <workItem from="1507423085317" duration="4525000" />
+      <workItem from="1507509038114" duration="22323000" />
+      <workItem from="1507536316048" duration="16623000" />
+      <workItem from="1507603110834" duration="19753000" />
+      <workItem from="1507682100104" duration="24385000" />
+      <workItem from="1507712334024" duration="1958000" />
+      <workItem from="1507768225896" duration="25544000" />
+      <workItem from="1507854172908" duration="7640000" />
+      <workItem from="1507868650497" duration="19000" />
+      <workItem from="1507871059120" duration="14749000" />
+      <workItem from="1507941499443" duration="16885000" />
+      <workItem from="1507962015189" duration="7237000" />
+      <workItem from="1508113329772" duration="28070000" />
+      <workItem from="1508199552331" duration="24006000" />
+      <workItem from="1508286340534" duration="20959000" />
+      <workItem from="1508372117525" duration="24254000" />
+      <workItem from="1508459785693" duration="18407000" />
+      <workItem from="1508545562621" duration="24531000" />
+      <workItem from="1508718531685" duration="27602000" />
+      <workItem from="1508805024367" duration="26556000" />
+      <workItem from="1508890943355" duration="27261000" />
+      <workItem from="1508977869398" duration="24087000" />
+      <workItem from="1509064230715" duration="16199000" />
+      <workItem from="1509150154604" duration="10586000" />
+      <workItem from="1509239561500" duration="597000" />
+      <workItem from="1509322985518" duration="25454000" />
+      <workItem from="1509409375850" duration="24146000" />
+      <workItem from="1509495766601" duration="2947000" />
+      <workItem from="1509501624273" duration="12643000" />
+      <workItem from="1509525313023" duration="2302000" />
+      <workItem from="1509582702555" duration="25127000" />
+      <workItem from="1509668443137" duration="6903000" />
+      <workItem from="1509685515920" duration="22573000" />
+      <workItem from="1509754720409" duration="42023000" />
+      <workItem from="1509841330431" duration="39791000" />
+      <workItem from="1509928161487" duration="21676000" />
+      <workItem from="1510017491593" duration="23246000" />
+      <workItem from="1510100779840" duration="23317000" />
+      <workItem from="1510187794243" duration="19520000" />
+      <workItem from="1510212811603" duration="7285000" />
+      <workItem from="1510273750909" duration="26581000" />
+      <workItem from="1510360227900" duration="18340000" />
+      <workItem from="1510550957972" duration="6313000" />
+      <workItem from="1510619402502" duration="12942000" />
+      <workItem from="1510713334651" duration="2718000" />
+      <workItem from="1510716962654" duration="1029000" />
+      <workItem from="1510721043194" duration="11567000" />
+      <workItem from="1510792185736" duration="2816000" />
+      <workItem from="1510795466440" duration="339000" />
+      <workItem from="1510796079739" duration="621000" />
+      <workItem from="1510796788001" duration="16165000" />
+      <workItem from="1510878583850" duration="5575000" />
+      <workItem from="1510884467369" duration="19585000" />
+      <workItem from="1510965364060" duration="16466000" />
+      <workItem from="1511050948577" duration="35884000" />
+      <workItem from="1511224513008" duration="23786000" />
+      <workItem from="1511310389679" duration="14498000" />
+      <workItem from="1511334731827" duration="827000" />
+      <workItem from="1511335575199" duration="5040000" />
+      <workItem from="1511396666264" duration="18119000" />
+      <workItem from="1511483501254" duration="28525000" />
+      <workItem from="1511569457487" duration="21361000" />
+      <workItem from="1511742710307" duration="22915000" />
+      <workItem from="1511828740870" duration="8138000" />
+      <workItem from="1511839459856" duration="247000" />
+      <workItem from="1511843439006" duration="6522000" />
+      <workItem from="1511915409060" duration="21972000" />
+      <workItem from="1512001260700" duration="30033000" />
+      <workItem from="1512087845714" duration="28376000" />
+      <workItem from="1512174675489" duration="23651000" />
+      <workItem from="1512347153273" duration="27477000" />
+      <workItem from="1512519968526" duration="18948000" />
+      <workItem from="1512547099187" duration="12986000" />
+      <workItem from="1512606105656" duration="21157000" />
+      <workItem from="1512692906818" duration="21125000" />
+      <workItem from="1512779792969" duration="30148000" />
+      <workItem from="1512867060454" duration="309000" />
+      <workItem from="1512867529572" duration="32000" />
+      <workItem from="1512870912828" duration="27641000" />
+      <workItem from="1512952139072" duration="15053000" />
+      <workItem from="1513038313283" duration="7888000" />
+      <workItem from="1513049176840" duration="17266000" />
+      <workItem from="1513124870068" duration="28011000" />
+      <workItem from="1513211242530" duration="29554000" />
+      <workItem from="1513297466216" duration="29411000" />
+      <workItem from="1513386083024" duration="1255000" />
+      <workItem from="1513387487129" duration="21038000" />
+      <workItem from="1513557311311" duration="27586000" />
+      <workItem from="1513643110326" duration="13971000" />
+      <workItem from="1513662140244" duration="5814000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1507603215145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507603215145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改了GlobalData共享数据  可用">
+      <created>1507886773338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507886773338</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了GlobalData共享数据  可用">
+      <created>1507886916337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507886916337</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改了框架结构">
+      <created>1507964935051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507964935051</updated>
+    </task>
+    <task id="LOCAL-00005" summary="整合了牛牛上庄中从创建房间---至---发牌操作的通信，判断未完成">
+      <created>1508218749793</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508218749793</updated>
+    </task>
+    <task id="LOCAL-00006" summary="战绩存储及特殊牌判断">
+      <created>1508554968523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508554968523</updated>
+    </task>
+    <task id="LOCAL-00007" summary="语音等的添加">
+      <created>1508825670008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508825670008</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1622854000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28118393" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="修改了GlobalData共享数据  可用" />
+    <MESSAGE value="修改了框架结构" />
+    <MESSAGE value="整合了牛牛上庄中从创建房间---至---发牌操作的通信，判断未完成" />
+    <MESSAGE value="战绩存储及特殊牌判断" />
+    <MESSAGE value="语音等的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="语音等的添加" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/账户管理.url" />
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Module/MaJongStep.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/workerman/gateway-worker/src/Gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/GlobalData/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/start_businessworker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/AdminManager.php" />
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/GoldVo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Module/Record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="129" column="20" lean-forward="false" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJong_ConnectAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoomRecorder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Protocols/GameProtocol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/start_gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Context/ConnectAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Database/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Context/NiuApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Context/ErrorCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Module/MaJongRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Module/System.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Context/RoomType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Module/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#6#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoomLogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongLogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="343" column="27" lean-forward="false" selection-start-line="343" selection-start-column="27" selection-end-line="343" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="n#getPlayerNum#0;n#Room#0;n#!!top" expanded="false" />
+            <element signature="n#addPlayerToList#0;n#Room#0;n#!!top" expanded="false" />
+            <element signature="n#delPlayerToList#0;n#Room#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuniuType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/RecordDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuniuLogic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="n#__construct#0;n#MaJongManager#0;n#!!top" expanded="false" />
+            <element signature="n#createMaJong#0;n#MaJongManager#0;n#!!top" expanded="false" />
+            <element signature="n#initPai#0;n#MaJongManager#0;n#!!top" expanded="false" />
+            <element signature="n#xiPai#0;n#MaJongManager#0;n#!!top" expanded="false" />
+            <element signature="n#startTouZi#0;n#MaJongManager#0;n#!!top" expanded="false" />
+            <element signature="n#qiPai#0;n#MaJongManager#0;n#!!top" expanded="false" />
+            <element signature="n#moPai#0;n#MaJongManager#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="n#getMaJongManager#0;n#MaJongRoom#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerPos#0;n#MaJongRoom#0;n#!!top" expanded="false" />
+            <element signature="n#randFirstZhuang#0;n#MaJongRoom#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuRoomManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="n#createNiuNiuRoom#0;n#NiuNiuRoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#createRoomToDB#0;n#NiuNiuRoomManager#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuRoom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="n#__construct#0;n#NiuNiuManager#0;n#!!top" expanded="false" />
+            <element signature="n#initPai#0;n#NiuNiuManager#0;n#!!top" expanded="false" />
+            <element signature="n#xiPai#0;n#NiuNiuManager#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/NiuNiu/NiuNiuCard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Player/MaJongPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Player/NiuNiuPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Player/Player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Log/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Player/PlayerAvatar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/MaJong/MaJongRoomManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="n#createMaJongRoom#0;n#MaJongRoomManager#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Object/RoomManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="n#addNiuNiuRoomToList#0;n#RoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#getNiuNiuRoom#0;n#RoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#getNiuNiuRoomList#0;n#RoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#removeNiuNiuRoom#0;n#RoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#addMaJongRoomToList#0;n#RoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#getMaJongRoom#0;n#RoomManager#0;n#!!top" expanded="false" />
+            <element signature="n#getMaJongRoomList#0;n#RoomManager#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Server/ServerContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="n#addOfflineCharacter#0;n#ServerContext#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerFromOnLine#0;n#ServerContext#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerFromOffLine#0;n#ServerContext#0;n#!!top" expanded="false" />
+            <element signature="n#getPlayerAvatar#0;n#ServerContext#0;n#!!top" expanded="false" />
+            <element signature="n#removeOfflinePlayer#0;n#ServerContext#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Server/MaJongRequestProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Server/NiuNiuRequestProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Server/GameServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="94" column="43" lean-forward="false" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#114#0#PHP" expanded="true" />
+            <element signature="n#processClientRequest#0;n#GameServer#0;n#!!top" expanded="false" />
+            <element signature="n#processServerResponse#0;n#GameServer#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Server/PublicRequestProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Context/GameType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Game/Server/ServerResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#75#0#PHP" expanded="true" />
+            <element signature="n#responseUserBasic#0;n#ServerResponse#0;n#!!top" expanded="false" />
+            <element signature="n#responseGroupBasic#0;n#ServerResponse#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/YourApp/start_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

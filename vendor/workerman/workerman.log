@@ -1,0 +1,1429 @@
+2017-10-09 09:24:44 pid:18399 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:24:53 pid:18399 Workerman[start.php] Stopping ...
+2017-10-09 09:24:53 pid:18399 Workerman[start.php] has been stopped
+2017-10-09 09:26:41 pid:18485 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:26:46 pid:18488 exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1709
+Stack trace:
+#0 /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1709): PDO->__construct('mysql:dbname=ga...', 'root', 'root', Array)
+#1 /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /root/myGame/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('localhost', 3306, 'root', 'root', 'game')
+#3 /root/myGame/Applications/YourApp/Game/Player/Player.php(49): GatewayWorker\Lib\Db::instance('game')
+#4 /root/myGame/Applications/YourApp/Game/Player/Player.php(40): Player->createPlayerToDB(Array)
+#5 /root/myGame/Applications/YourApp/Game/Player/PlayerAvatar.php(38): Player->__construct(Array)
+#6 /root/myGame/Applications/YourApp/Game/Player/PlayerAvatar.php(30): PlayerAvatar->initPlayer(Array, '182.142.137.228')
+#7 /root/myGame/Applications/YourApp/Game/Server/ClientRequestProcess.php(66): PlayerAvatar->__construct(Array, '182.142.137.228')
+#8 /root/myGame/Applications/YourApp/Game/Server/ClientRequestProcess.php(36): ClientRequestProcess->UserLogin('7f0000010b55000...', Array)
+#9 /root/myGame/Applications/YourApp/Events.php(58): ClientRequestProcess->ProcessClientRequest('7f0000010b55000...', Array)
+#10 [internal function]: Events::onMessage('7f0000010b55000...', Array)
+#11 /root/myGame/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b55000...', Array)
+#12 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#13 /root/myGame/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#15 /root/myGame/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#16 /root/myGame/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#17 /root/myGame/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#18 /root/myGame/vendor/workerman/workerman/Worker.php(1025): GatewayWorker\BusinessWorker->run()
+#19 /root/myGame/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#20 /root/myGame/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#21 /root/myGame/start.php(37): Workerman\Worker::runAll()
+#22 {main}
+2017-10-09 09:26:46 pid:18488 Worker[18488] process terminated
+2017-10-09 09:26:46 pid:18485 worker[YourAppBusinessWorker:18488] exit with status 64000
+2017-10-09 09:27:58 pid:18485 Workerman[start.php] Stopping ...
+2017-10-09 09:27:58 pid:18485 Workerman[start.php] has been stopped
+2017-10-09 09:28:56 pid:18579 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:29:38 pid:18579 Workerman[start.php] Stopping ...
+2017-10-09 09:29:38 pid:18579 Workerman[start.php] has been stopped
+2017-10-09 09:30:59 pid:18670 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:32:37 pid:18670 Workerman[start.php] Stopping ...
+2017-10-09 09:32:37 pid:18670 Workerman[start.php] has been stopped
+2017-10-09 09:33:57 pid:18805 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:34:19 pid:18805 Workerman[start.php] Stopping ...
+2017-10-09 09:34:19 pid:18805 Workerman[start.php] has been stopped
+2017-10-09 09:34:20 pid:18846 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:36:19 pid:18846 Workerman[start.php] Stopping ...
+2017-10-09 09:36:19 pid:18846 Workerman[start.php] has been stopped
+2017-10-09 09:36:20 pid:18933 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:39:50 pid:18933 Workerman[start.php] Stopping ...
+2017-10-09 09:39:50 pid:18933 Workerman[start.php] has been stopped
+2017-10-09 09:39:50 pid:19073 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:40:28 pid:19073 Workerman[start.php] Stopping ...
+2017-10-09 09:40:28 pid:19073 Workerman[start.php] has been stopped
+2017-10-09 09:42:49 pid:19204 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:43:47 pid:19204 Workerman[start.php] Stopping ...
+2017-10-09 09:43:47 pid:19204 Workerman[start.php] has been stopped
+2017-10-09 09:46:35 pid:19371 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:48:23 pid:19453 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:51:28 pid:19453 Workerman[start.php] Stopping ...
+2017-10-09 09:51:28 pid:19453 Workerman[start.php] has been stopped
+2017-10-09 09:51:28 pid:19578 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:52:31 pid:19578 Workerman[start.php] Stopping ...
+2017-10-09 09:52:31 pid:19578 Workerman[start.php] has been stopped
+2017-10-09 09:53:14 pid:19633 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:53:52 pid:19633 Workerman[start.php] Stopping ...
+2017-10-09 09:53:52 pid:19633 Workerman[start.php] has been stopped
+2017-10-09 09:53:52 pid:19686 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:54:13 pid:19686 Workerman[start.php] Stopping ...
+2017-10-09 09:54:13 pid:19686 Workerman[start.php] has been stopped
+2017-10-09 09:54:45 pid:19734 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:56:04 pid:19734 Workerman[start.php] Stopping ...
+2017-10-09 09:56:04 pid:19734 Workerman[start.php] has been stopped
+2017-10-09 09:56:05 pid:19791 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:57:11 pid:19791 Workerman[start.php] Stopping ...
+2017-10-09 09:57:11 pid:19791 Workerman[start.php] has been stopped
+2017-10-09 09:57:33 pid:19870 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:59:16 pid:19870 Workerman[start.php] Stopping ...
+2017-10-09 09:59:16 pid:19870 Workerman[start.php] has been stopped
+2017-10-09 09:59:17 pid:19957 Workerman[start.php] start in DEBUG mode
+2017-10-09 09:59:31 pid:19960 exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1709
+Stack trace:
+#0 /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1709): PDO->__construct('mysql:dbname=ga...', 'root', 'root', Array)
+#1 /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1695): GatewayWorker\Lib\DbConnection->connect()
+#2 /root/myGame/vendor/workerman/gateway-worker/src/Lib/Db.php(48): GatewayWorker\Lib\DbConnection->__construct('localhost', 3306, 'root', 'root', 'game')
+#3 /root/myGame/Applications/YourApp/Game/Player/Player.php(49): GatewayWorker\Lib\Db::instance('game')
+#4 /root/myGame/Applications/YourApp/Game/Player/Player.php(40): Player->createPlayerToDB(Array)
+#5 /root/myGame/Applications/YourApp/Game/Player/PlayerAvatar.php(38): Player->__construct(Array)
+#6 /root/myGame/Applications/YourApp/Game/Player/PlayerAvatar.php(30): PlayerAvatar->initPlayer(Array, '182.142.137.228')
+#7 /root/myGame/Applications/YourApp/Game/Server/ClientRequestProcess.php(67): PlayerAvatar->__construct(Array, '182.142.137.228')
+#8 /root/myGame/Applications/YourApp/Game/Server/ClientRequestProcess.php(36): ClientRequestProcess->UserLogin('7f0000010b56000...', Array)
+#9 /root/myGame/Applications/YourApp/Events.php(57): ClientRequestProcess->ProcessClientRequest('7f0000010b56000...', Array)
+#10 [internal function]: Events::onMessage('7f0000010b56000...', Array)
+#11 /root/myGame/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b56000...', Array)
+#12 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#13 /root/myGame/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#15 /root/myGame/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#16 /root/myGame/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#17 /root/myGame/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#18 /root/myGame/vendor/workerman/workerman/Worker.php(1025): GatewayWorker\BusinessWorker->run()
+#19 /root/myGame/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#20 /root/myGame/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#21 /root/myGame/start.php(37): Workerman\Worker::runAll()
+#22 {main}
+2017-10-09 09:59:31 pid:19960 Worker[19960] process terminated
+2017-10-09 09:59:31 pid:19957 worker[YourAppBusinessWorker:19960] exit with status 64000
+2017-10-09 10:06:10 pid:19957 Workerman[start.php] Stopping ...
+2017-10-09 10:06:10 pid:19957 Workerman[start.php] has been stopped
+2017-10-09 10:06:53 pid:20288 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:12:11 pid:20288 Workerman[start.php] Stopping ...
+2017-10-09 10:12:11 pid:20288 Workerman[start.php] has been stopped
+2017-10-09 10:12:12 pid:20520 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:13:01 pid:20520 Workerman[start.php] Stopping ...
+2017-10-09 10:13:01 pid:20520 Workerman[start.php] has been stopped
+2017-10-09 10:13:01 pid:20564 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:15:06 pid:20564 Workerman[start.php] Stopping ...
+2017-10-09 10:15:06 pid:20564 Workerman[start.php] has been stopped
+2017-10-09 10:15:07 pid:20655 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:15:34 pid:20656 exception 'PDOException' with message 'SQL:SELECT player_id FROM `player` WHERE player_id=:id SQLSTATE[42S22]: Column not found: 1054 Unknown column 'player_id' in 'field list'' in /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php:1766
+Stack trace:
+#0 /root/myGame/vendor/workerman/gateway-worker/src/Lib/DbConnection.php(1824): GatewayWorker\Lib\DbConnection->execute('SELECT player_i...', Array)
+#1 /root/myGame/Applications/YourApp/Game/Player/Player.php(48): GatewayWorker\Lib\DbConnection->query()
+#2 /root/myGame/Applications/YourApp/Game/Player/Player.php(37): Player->createPlayerToDB(Array)
+#3 /root/myGame/Applications/YourApp/Game/Player/PlayerAvatar.php(38): Player->__construct(Array)
+#4 /root/myGame/Applications/YourApp/Game/Player/PlayerAvatar.php(30): PlayerAvatar->initPlayer(Array, '182.142.137.228')
+#5 /root/myGame/Applications/YourApp/Game/Server/ClientRequestProcess.php(67): PlayerAvatar->__construct(Array, '182.142.137.228')
+#6 /root/myGame/Applications/YourApp/Game/Server/ClientRequestProcess.php(36): ClientRequestProcess->UserLogin('7f0000010b54000...', Array)
+#7 /root/myGame/Applications/YourApp/Events.php(53): ClientRequestProcess->ProcessClientRequest('7f0000010b54000...', Array)
+#8 [internal function]: Events::onMessage('7f0000010b54000...', Array)
+#9 /root/myGame/vendor/workerman/gateway-worker/src/BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f0000010b54000...', Array)
+#10 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#11 /root/myGame/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#13 /root/myGame/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#14 /root/myGame/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#15 /root/myGame/vendor/workerman/gateway-worker/src/BusinessWorker.php(190): Workerman\Worker->run()
+#16 /root/myGame/vendor/workerman/workerman/Worker.php(1025): GatewayWorker\BusinessWorker->run()
+#17 /root/myGame/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#18 /root/myGame/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#19 /root/myGame/start.php(37): Workerman\Worker::runAll()
+#20 {main}
+2017-10-09 10:15:34 pid:20656 Worker[20656] process terminated
+2017-10-09 10:15:34 pid:20655 worker[YourAppBusinessWorker:20656] exit with status 64000
+2017-10-09 10:16:24 pid:20655 Workerman[start.php] Stopping ...
+2017-10-09 10:16:24 pid:20655 Workerman[start.php] has been stopped
+2017-10-09 10:16:25 pid:20741 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:17:44 pid:20741 Workerman[start.php] Stopping ...
+2017-10-09 10:17:44 pid:20741 Workerman[start.php] has been stopped
+2017-10-09 10:17:44 pid:20788 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:19:47 pid:20788 Workerman[start.php] Stopping ...
+2017-10-09 10:19:47 pid:20788 Workerman[start.php] has been stopped
+2017-10-09 10:19:48 pid:20876 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:20:56 pid:20876 Workerman[start.php] Stopping ...
+2017-10-09 10:20:56 pid:20876 Workerman[start.php] has been stopped
+2017-10-09 10:21:01 pid:20936 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:21:57 pid:20936 Workerman[start.php] Stopping ...
+2017-10-09 10:21:57 pid:20936 Workerman[start.php] has been stopped
+2017-10-09 10:21:58 pid:20990 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:22:26 pid:20990 Workerman[start.php] Stopping ...
+2017-10-09 10:22:26 pid:20990 Workerman[start.php] has been stopped
+2017-10-09 10:22:53 pid:21032 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:23:03 pid:21032 Workerman[start.php] Stopping ...
+2017-10-09 10:23:03 pid:21032 Workerman[start.php] has been stopped
+2017-10-09 10:23:24 pid:21075 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:23:31 pid:21075 Workerman[start.php] Stopping ...
+2017-10-09 10:23:31 pid:21075 Workerman[start.php] has been stopped
+2017-10-09 10:46:50 pid:22023 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:47:14 pid:22023 Workerman[start.php] Stopping ...
+2017-10-09 10:47:14 pid:22023 Workerman[start.php] has been stopped
+2017-10-09 10:47:44 pid:22065 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:47:58 pid:22065 Workerman[start.php] Stopping ...
+2017-10-09 10:47:58 pid:22065 Workerman[start.php] has been stopped
+2017-10-09 10:51:42 pid:22244 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:55:41 pid:22244 Workerman[start.php] Stopping ...
+2017-10-09 10:55:41 pid:22244 Workerman[start.php] has been stopped
+2017-10-09 10:55:50 pid:22437 Workerman[start.php] start in DEBUG mode
+2017-10-09 10:57:34 pid:22437 Workerman[start.php] Stopping ...
+2017-10-09 10:57:34 pid:22437 Workerman[start.php] has been stopped
+2017-11-15 11:01:26 pid:66702 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:01:29 pid:66702 Workerman[start.php] Stopping ...
+2017-11-15 11:01:29 pid:66702 Workerman[start.php] has been stopped
+2017-11-15 11:02:43 pid:66777 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:04:04 pid:66777 Workerman[start.php] Stopping ...
+2017-11-15 11:04:04 pid:66777 Workerman[start.php] has been stopped
+2017-11-15 11:04:04 pid:66985 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:04:49 pid:66987 Worker[66987] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:04:49 pid:66985 worker[YourAppBusinessWorker:66987] exit with status 65280
+2017-11-15 11:04:53 pid:66985 Workerman[start.php] Stopping ...
+2017-11-15 11:04:53 pid:66985 Workerman[start.php] has been stopped
+2017-11-15 11:05:22 pid:67010 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:05:25 pid:67015 Worker[67015] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:05:25 pid:67010 worker[YourAppBusinessWorker:67015] exit with status 65280
+2017-11-15 11:05:39 pid:67010 Workerman[start.php] Stopping ...
+2017-11-15 11:05:39 pid:67010 Workerman[start.php] has been stopped
+2017-11-15 11:06:10 pid:67079 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:06:13 pid:67084 Worker[67084] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:06:13 pid:67079 worker[YourAppBusinessWorker:67084] exit with status 65280
+2017-11-15 11:06:23 pid:67079 Workerman[start.php] Stopping ...
+2017-11-15 11:06:23 pid:67079 Workerman[start.php] has been stopped
+2017-11-15 11:06:59 pid:67105 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:07:10 pid:67111 Worker[67111] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:10 pid:67105 worker[YourAppBusinessWorker:67111] exit with status 65280
+2017-11-15 11:07:13 pid:67125 Worker[67125] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:13 pid:67105 worker[YourAppBusinessWorker:67125] exit with status 65280
+2017-11-15 11:07:13 pid:67126 Worker[67126] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:13 pid:67105 worker[YourAppBusinessWorker:67126] exit with status 65280
+2017-11-15 11:07:13 pid:67127 Worker[67127] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:13 pid:67105 worker[YourAppBusinessWorker:67127] exit with status 65280
+2017-11-15 11:07:14 pid:67128 Worker[67128] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:14 pid:67105 worker[YourAppBusinessWorker:67128] exit with status 65280
+2017-11-15 11:07:14 pid:67129 Worker[67129] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:14 pid:67105 worker[YourAppBusinessWorker:67129] exit with status 65280
+2017-11-15 11:07:14 pid:67130 Worker[67130] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:14 pid:67105 worker[YourAppBusinessWorker:67130] exit with status 65280
+2017-11-15 11:07:14 pid:67131 Worker[67131] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:14 pid:67105 worker[YourAppBusinessWorker:67131] exit with status 65280
+2017-11-15 11:07:15 pid:67132 Worker[67132] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:15 pid:67105 worker[YourAppBusinessWorker:67132] exit with status 65280
+2017-11-15 11:07:22 pid:67105 Workerman[start.php] Stopping ...
+2017-11-15 11:07:22 pid:67105 Workerman[start.php] has been stopped
+2017-11-15 11:07:37 pid:67134 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:07:46 pid:67134 Workerman[start.php] Stopping ...
+2017-11-15 11:07:46 pid:67134 Workerman[start.php] has been stopped
+2017-11-15 11:07:47 pid:67149 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:07:50 pid:67153 Worker[67153] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:07:50 pid:67149 worker[YourAppBusinessWorker:67153] exit with status 65280
+2017-11-15 11:07:53 pid:67149 Workerman[start.php] Stopping ...
+2017-11-15 11:07:53 pid:67149 Workerman[start.php] has been stopped
+2017-11-15 11:08:17 pid:67172 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:08:19 pid:67174 Worker[67174] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:08:19 pid:67172 worker[YourAppBusinessWorker:67174] exit with status 65280
+2017-11-15 11:08:21 pid:67187 Worker[67187] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:08:21 pid:67172 worker[YourAppBusinessWorker:67187] exit with status 65280
+2017-11-15 11:08:22 pid:67188 Worker[67188] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:08:22 pid:67172 worker[YourAppBusinessWorker:67188] exit with status 65280
+2017-11-15 11:08:23 pid:67189 Worker[67189] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:08:23 pid:67172 worker[YourAppBusinessWorker:67189] exit with status 65280
+2017-11-15 11:08:23 pid:67190 Worker[67190] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:08:23 pid:67172 worker[YourAppBusinessWorker:67190] exit with status 65280
+2017-11-15 11:08:25 pid:67172 Workerman[start.php] Stopping ...
+2017-11-15 11:08:25 pid:67172 Workerman[start.php] has been stopped
+2017-11-15 11:08:54 pid:67200 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:08:56 pid:67203 Worker[67203] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:08:56 pid:67200 worker[YourAppBusinessWorker:67203] exit with status 65280
+2017-11-15 11:09:00 pid:67200 Workerman[start.php] Stopping ...
+2017-11-15 11:09:00 pid:67200 Workerman[start.php] has been stopped
+2017-11-15 11:09:51 pid:67221 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:09:54 pid:67222 Worker[67222] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:09:54 pid:67221 worker[YourAppBusinessWorker:67222] exit with status 65280
+2017-11-15 11:09:59 pid:67221 Workerman[start.php] Stopping ...
+2017-11-15 11:09:59 pid:67221 Workerman[start.php] has been stopped
+2017-11-15 11:10:20 pid:67248 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:10:22 pid:67253 Worker[67253] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:10:22 pid:67248 worker[YourAppBusinessWorker:67253] exit with status 65280
+2017-11-15 11:10:24 pid:67248 Workerman[start.php] Stopping ...
+2017-11-15 11:10:24 pid:67248 Workerman[start.php] has been stopped
+2017-11-15 11:11:16 pid:69788 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:11:27 pid:69794 Worker[69794] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:11:27 pid:69788 worker[YourAppBusinessWorker:69794] exit with status 65280
+2017-11-15 11:11:35 pid:69788 Workerman[start.php] Stopping ...
+2017-11-15 11:11:35 pid:69788 Workerman[start.php] has been stopped
+2017-11-15 11:15:31 pid:71128 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:15:37 pid:71130 Worker[71130] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:15:37 pid:71128 worker[YourAppBusinessWorker:71130] exit with status 65280
+2017-11-15 11:15:41 pid:71128 Workerman[start.php] Stopping ...
+2017-11-15 11:15:41 pid:71128 Workerman[start.php] has been stopped
+2017-11-15 11:17:15 pid:71812 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:17:20 pid:71819 Worker[71819] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:17:20 pid:71812 worker[YourAppBusinessWorker:71819] exit with status 65280
+2017-11-15 11:17:21 pid:71870 Worker[71870] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:17:21 pid:71812 worker[YourAppBusinessWorker:71870] exit with status 65280
+2017-11-15 11:17:22 pid:71891 Worker[71891] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:17:22 pid:71812 worker[YourAppBusinessWorker:71891] exit with status 65280
+2017-11-15 11:17:26 pid:71812 Workerman[start.php] Stopping ...
+2017-11-15 11:17:26 pid:71812 Workerman[start.php] has been stopped
+2017-11-15 11:19:09 pid:72587 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:19:20 pid:72591 Worker[72591] process terminated with ERROR: E_ERROR "Class 'PDO' not found in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1705"
+2017-11-15 11:19:20 pid:72587 worker[YourAppBusinessWorker:72591] exit with status 65280
+2017-11-15 11:19:25 pid:72587 Workerman[start.php] Stopping ...
+2017-11-15 11:19:25 pid:72587 Workerman[start.php] has been stopped
+2017-11-15 11:20:09 pid:73011 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:20:13 pid:73012 Worker[73012] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:20:14 pid:73011 worker[YourAppBusinessWorker:73012] exit with status 65280
+2017-11-15 11:20:19 pid:73011 Workerman[start.php] Stopping ...
+2017-11-15 11:20:19 pid:73011 Workerman[start.php] has been stopped
+2017-11-15 11:20:51 pid:73305 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:20:55 pid:73307 Worker[73307] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:20:55 pid:73305 worker[YourAppBusinessWorker:73307] exit with status 65280
+2017-11-15 11:22:10 pid:73305 Workerman[start.php] Stopping ...
+2017-11-15 11:22:10 pid:73305 Workerman[start.php] has been stopped
+2017-11-15 11:22:11 pid:73834 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:22:18 pid:73835 Worker[73835] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:18 pid:73834 worker[YourAppBusinessWorker:73835] exit with status 65280
+2017-11-15 11:22:19 pid:73913 Worker[73913] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:20 pid:73834 worker[YourAppBusinessWorker:73913] exit with status 65280
+2017-11-15 11:22:20 pid:73914 Worker[73914] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:20 pid:73834 worker[YourAppBusinessWorker:73914] exit with status 65280
+2017-11-15 11:22:20 pid:73915 Worker[73915] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:20 pid:73834 worker[YourAppBusinessWorker:73915] exit with status 65280
+2017-11-15 11:22:20 pid:73916 Worker[73916] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:20 pid:73834 worker[YourAppBusinessWorker:73916] exit with status 65280
+2017-11-15 11:22:20 pid:73917 Worker[73917] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:20 pid:73834 worker[YourAppBusinessWorker:73917] exit with status 65280
+2017-11-15 11:22:20 pid:73918 Worker[73918] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:20 pid:73834 worker[YourAppBusinessWorker:73918] exit with status 65280
+2017-11-15 11:22:21 pid:73919 Worker[73919] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:21 pid:73834 worker[YourAppBusinessWorker:73919] exit with status 65280
+2017-11-15 11:22:21 pid:73920 Worker[73920] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:21 pid:73834 worker[YourAppBusinessWorker:73920] exit with status 65280
+2017-11-15 11:22:21 pid:73922 Worker[73922] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:21 pid:73834 worker[YourAppBusinessWorker:73922] exit with status 65280
+2017-11-15 11:22:21 pid:73924 Worker[73924] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:21 pid:73834 worker[YourAppBusinessWorker:73924] exit with status 65280
+2017-11-15 11:22:21 pid:73935 Worker[73935] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:21 pid:73834 worker[YourAppBusinessWorker:73935] exit with status 65280
+2017-11-15 11:22:21 pid:73941 Worker[73941] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:21 pid:73834 worker[YourAppBusinessWorker:73941] exit with status 65280
+2017-11-15 11:22:22 pid:73952 Worker[73952] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:22 pid:73834 worker[YourAppBusinessWorker:73952] exit with status 65280
+2017-11-15 11:22:22 pid:73958 Worker[73958] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:22 pid:73834 worker[YourAppBusinessWorker:73958] exit with status 65280
+2017-11-15 11:22:22 pid:73959 Worker[73959] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:22 pid:73834 worker[YourAppBusinessWorker:73959] exit with status 65280
+2017-11-15 11:22:22 pid:73960 Worker[73960] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:22 pid:73834 worker[YourAppBusinessWorker:73960] exit with status 65280
+2017-11-15 11:22:23 pid:73961 Worker[73961] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:23 pid:73834 worker[YourAppBusinessWorker:73961] exit with status 65280
+2017-11-15 11:22:23 pid:73962 Worker[73962] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:23 pid:73834 worker[YourAppBusinessWorker:73962] exit with status 65280
+2017-11-15 11:22:23 pid:73963 Worker[73963] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:23 pid:73834 worker[YourAppBusinessWorker:73963] exit with status 65280
+2017-11-15 11:22:24 pid:73964 Worker[73964] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:24 pid:73834 worker[YourAppBusinessWorker:73964] exit with status 65280
+2017-11-15 11:22:24 pid:73965 Worker[73965] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:24 pid:73834 worker[YourAppBusinessWorker:73965] exit with status 65280
+2017-11-15 11:22:24 pid:73966 Worker[73966] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:22:24 pid:73834 worker[YourAppBusinessWorker:73966] exit with status 65280
+2017-11-15 11:23:21 pid:73834 Workerman[start.php] Stopping ...
+2017-11-15 11:23:21 pid:73834 Workerman[start.php] has been stopped
+2017-11-15 11:23:22 pid:74348 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:23:32 pid:74358 Worker[74358] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:23:32 pid:74348 worker[YourAppBusinessWorker:74358] exit with status 65280
+2017-11-15 11:23:36 pid:74348 Workerman[start.php] Stopping ...
+2017-11-15 11:23:36 pid:74348 Workerman[start.php] has been stopped
+2017-11-15 11:23:49 pid:74537 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:23:52 pid:74542 Worker[74542] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:23:52 pid:74537 worker[YourAppBusinessWorker:74542] exit with status 65280
+2017-11-15 11:24:13 pid:74537 Workerman[start.php] Stopping ...
+2017-11-15 11:24:13 pid:74537 Workerman[start.php] has been stopped
+2017-11-15 11:27:11 pid:6036 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:27:55 pid:6038 Worker[6038] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:27:55 pid:6036 worker[YourAppBusinessWorker:6038] exit with status 65280
+2017-11-15 11:27:57 pid:6036 Workerman[start.php] Stopping ...
+2017-11-15 11:27:57 pid:6036 Workerman[start.php] has been stopped
+2017-11-15 11:28:40 pid:6345 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:28:44 pid:6350 Worker[6350] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:28:44 pid:6345 worker[YourAppBusinessWorker:6350] exit with status 65280
+2017-11-15 11:31:03 pid:6345 Workerman[start.php] Stopping ...
+2017-11-15 11:31:03 pid:6345 Workerman[start.php] has been stopped
+2017-11-15 11:33:04 pid:7504 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:33:08 pid:7507 Worker[7507] process terminated with ERROR: E_ERROR "Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in /root/ChessGameServer/vendor/workerman/gateway-worker/src/Lib/DbConnection.php on line 1707"
+2017-11-15 11:33:08 pid:7504 worker[YourAppBusinessWorker:7507] exit with status 65280
+2017-11-15 11:33:13 pid:7504 Workerman[start.php] Stopping ...
+2017-11-15 11:33:13 pid:7504 Workerman[start.php] has been stopped
+2017-11-15 11:34:57 pid:7614 Workerman[start.php] start in DEBUG mode
+2017-11-15 11:35:20 pid:7614 Workerman[start.php] Stopping ...
+2017-11-15 11:35:20 pid:7614 Workerman[start.php] has been stopped
+2017-11-15 11:35:23 pid:7632 Workerman[start.php] start in DEBUG mode
+2017-11-15 14:06:34 pid:47847 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:17:21 pid:47847 Workerman[start.php] Stopping ...
+2017-11-15 15:17:21 pid:47847 Workerman[start.php] has been stopped
+2017-11-15 15:17:21 pid:66715 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:17:41 pid:66715 Workerman[start.php] Stopping ...
+2017-11-15 15:17:41 pid:66715 Workerman[start.php] has been stopped
+2017-11-15 15:17:42 pid:66730 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:17:54 pid:66730 Workerman[start.php] Stopping ...
+2017-11-15 15:17:54 pid:66730 Workerman[start.php] has been stopped
+2017-11-15 15:18:16 pid:66746 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:18:37 pid:66746 Workerman[start.php] Stopping ...
+2017-11-15 15:18:37 pid:66746 Workerman[start.php] has been stopped
+2017-11-15 15:19:00 pid:66762 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:19:07 pid:66762 Workerman[start.php] Stopping ...
+2017-11-15 15:19:07 pid:66762 Workerman[start.php] has been stopped
+2017-11-15 15:19:57 pid:66777 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:20:06 pid:66777 Workerman[start.php] Stopping ...
+2017-11-15 15:20:06 pid:66777 Workerman[start.php] has been stopped
+2017-11-15 15:20:36 pid:66802 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:20:43 pid:66802 Workerman[start.php] Stopping ...
+2017-11-15 15:20:43 pid:66802 Workerman[start.php] has been stopped
+2017-11-15 15:20:44 pid:66817 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:21:27 pid:66817 Workerman[start.php] Stopping ...
+2017-11-15 15:21:27 pid:66817 Workerman[start.php] has been stopped
+2017-11-15 15:23:06 pid:66855 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:23:15 pid:66855 Workerman[start.php] Stopping ...
+2017-11-15 15:23:15 pid:66855 Workerman[start.php] has been stopped
+2017-11-15 15:23:47 pid:66879 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:23:53 pid:66879 Workerman[start.php] Stopping ...
+2017-11-15 15:23:53 pid:66879 Workerman[start.php] has been stopped
+2017-11-15 15:24:15 pid:66906 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:25:33 pid:66906 Workerman[start.php] Stopping ...
+2017-11-15 15:25:33 pid:66906 Workerman[start.php] has been stopped
+2017-11-15 15:25:33 pid:66933 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:25:46 pid:66933 Workerman[start.php] Stopping ...
+2017-11-15 15:25:46 pid:66933 Workerman[start.php] has been stopped
+2017-11-15 15:26:29 pid:66960 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:26:38 pid:66960 Workerman[start.php] Stopping ...
+2017-11-15 15:26:39 pid:66960 Workerman[start.php] has been stopped
+2017-11-15 15:26:50 pid:66979 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:26:58 pid:66979 Workerman[start.php] Stopping ...
+2017-11-15 15:26:58 pid:66979 Workerman[start.php] has been stopped
+2017-11-15 15:27:32 pid:67011 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:27:38 pid:67011 Workerman[start.php] Stopping ...
+2017-11-15 15:27:38 pid:67011 Workerman[start.php] has been stopped
+2017-11-15 15:27:55 pid:67032 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:28:09 pid:67032 Workerman[start.php] Stopping ...
+2017-11-15 15:28:09 pid:67032 Workerman[start.php] has been stopped
+2017-11-15 15:28:33 pid:67047 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:28:43 pid:67047 Workerman[start.php] Stopping ...
+2017-11-15 15:28:43 pid:67047 Workerman[start.php] has been stopped
+2017-11-15 15:31:19 pid:67099 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:31:41 pid:67099 Workerman[start.php] Stopping ...
+2017-11-15 15:31:41 pid:67099 Workerman[start.php] has been stopped
+2017-11-15 15:33:28 pid:67124 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:33:39 pid:67124 Workerman[start.php] Stopping ...
+2017-11-15 15:33:39 pid:67124 Workerman[start.php] has been stopped
+2017-11-15 15:34:03 pid:67151 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:55:06 pid:67151 Workerman[start.php] Stopping ...
+2017-11-15 15:55:07 pid:67151 Workerman[start.php] has been stopped
+2017-11-15 15:55:07 pid:67436 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:04:28 pid:67436 Workerman[start.php] Stopping ...
+2017-11-15 16:04:28 pid:67436 Workerman[start.php] has been stopped
+2017-11-15 16:04:28 pid:67572 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:36:56 pid:67572 Workerman[start.php] Stopping ...
+2017-11-15 16:36:56 pid:67572 Workerman[start.php] has been stopped
+2017-11-15 16:36:56 pid:68325 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:38:31 pid:68325 Workerman[start.php] Stopping ...
+2017-11-15 16:38:31 pid:68325 Workerman[start.php] has been stopped
+2017-11-15 16:38:32 pid:68367 Workerman[start.php] start in DEBUG mode
+2017-11-16 08:54:02 pid:4385 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:38:35 pid:7085 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:38:40 pid:7085 Workerman[start.php] Stopping ...
+2017-11-16 10:38:41 pid:7085 Workerman[start.php] Stopping ...
+2017-11-16 10:38:41 pid:7085 Workerman[start.php] has been stopped
+2017-11-16 10:38:41 pid:7101 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:38:44 pid:7101 Workerman[start.php] Stopping ...
+2017-11-16 10:38:44 pid:7101 Workerman[start.php] has been stopped
+2017-11-16 10:38:45 pid:7116 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:42:10 pid:7116 Workerman[start.php] Stopping ...
+2017-11-16 10:42:10 pid:7116 Workerman[start.php] has been stopped
+2017-11-16 10:42:10 pid:7410 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:48:04 pid:7410 Workerman[start.php] Stopping ...
+2017-11-16 10:48:04 pid:7410 Workerman[start.php] has been stopped
+2017-11-16 10:48:04 pid:7470 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:48:24 pid:7470 Workerman[start.php] Stopping ...
+2017-11-16 10:48:24 pid:7470 Workerman[start.php] has been stopped
+2017-11-16 10:48:25 pid:7491 Workerman[start.php] start in DEBUG mode
+2017-11-16 10:49:28 pid:7491 Workerman[start.php] Stopping ...
+2017-11-16 10:49:28 pid:7491 Workerman[start.php] has been stopped
+2017-11-16 10:49:29 pid:7517 Workerman[start.php] start in DEBUG mode
+2017-11-16 11:17:59 pid:7517 Workerman[start.php] Stopping ...
+2017-11-16 11:17:59 pid:7517 Workerman[start.php] has been stopped
+2017-11-16 11:18:00 pid:7686 Workerman[start.php] start in DEBUG mode
+2017-11-16 11:35:33 pid:7686 Workerman[start.php] Stopping ...
+2017-11-16 11:35:33 pid:7686 Workerman[start.php] has been stopped
+2017-11-16 11:35:34 pid:7804 Workerman[start.php] start in DEBUG mode
+2017-11-16 13:17:18 pid:7804 Workerman[start.php] Stopping ...
+2017-11-16 13:17:19 pid:7804 Workerman[start.php] Stopping ...
+2017-11-16 13:17:19 pid:7804 Workerman[start.php] has been stopped
+2017-11-16 13:17:20 pid:8181 Workerman[start.php] start in DEBUG mode
+2017-11-16 14:23:54 pid:8181 Workerman[start.php] Stopping ...
+2017-11-16 14:23:54 pid:8181 Workerman[start.php] has been stopped
+2017-11-16 14:23:55 pid:8593 Workerman[start.php] start in DEBUG mode
+2017-11-16 14:29:24 pid:8593 Workerman[start.php] Stopping ...
+2017-11-16 14:29:25 pid:8593 Workerman[start.php] Stopping ...
+2017-11-16 14:29:25 pid:8593 Workerman[start.php] has been stopped
+2017-11-16 14:29:25 pid:8638 Workerman[start.php] start in DEBUG mode
+2017-11-16 14:29:47 pid:8638 Workerman[start.php] Stopping ...
+2017-11-16 14:29:47 pid:8638 Workerman[start.php] has been stopped
+2017-11-16 14:29:53 pid:8662 Workerman[start.php] start in DEBUG mode
+2017-11-16 14:32:19 pid:8662 Workerman[start.php] Stopping ...
+2017-11-16 14:32:19 pid:8662 Workerman[start.php] has been stopped
+2017-11-16 14:45:36 pid:8752 Workerman[start.php] start in DEBUG mode
+2017-11-16 14:55:50 pid:8752 Workerman[start.php] Stopping ...
+2017-11-16 14:55:50 pid:8752 Workerman[start.php] has been stopped
+2017-11-16 14:55:50 pid:8851 Workerman[start.php] start in DEBUG mode
+2017-11-16 14:57:33 pid:8851 Workerman[start.php] Stopping ...
+2017-11-16 14:57:33 pid:8851 Workerman[start.php] has been stopped
+2017-11-16 14:57:48 pid:8871 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:06:45 pid:8871 Workerman[start.php] Stopping ...
+2017-11-16 15:06:45 pid:8871 Workerman[start.php] has been stopped
+2017-11-16 15:06:47 pid:8994 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:07:07 pid:8997 Worker[8997] process terminated with ERROR: E_ERROR "Cannot use object of type PlayerAvatar as array in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 113"
+2017-11-16 15:07:07 pid:8994 worker[YourAppBusinessWorker:8997] exit with status 65280
+2017-11-16 15:07:27 pid:8994 Workerman[start.php] Stopping ...
+2017-11-16 15:07:27 pid:8994 Workerman[start.php] has been stopped
+2017-11-16 15:07:27 pid:9015 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:24:05 pid:9015 Workerman[start.php] Stopping ...
+2017-11-16 15:24:06 pid:9015 Workerman[start.php] Stopping ...
+2017-11-16 15:24:06 pid:9015 Workerman[start.php] Stopping ...
+2017-11-16 15:24:07 pid:9015 worker[YourAppBusinessWorker:9017] exit with status 9
+2017-11-16 15:24:07 pid:9015 worker[YourAppBusinessWorker:9021] exit with status 9
+2017-11-16 15:24:07 pid:9015 Workerman[start.php] has been stopped
+2017-11-16 15:24:18 pid:9234 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:32:10 pid:9234 Workerman[start.php] Stopping ...
+2017-11-16 15:32:10 pid:9234 Workerman[start.php] Stopping ...
+2017-11-16 15:32:12 pid:9234 worker[YourAppBusinessWorker:9237] exit with status 9
+2017-11-16 15:32:12 pid:9234 worker[YourAppBusinessWorker:9238] exit with status 9
+2017-11-16 15:32:12 pid:9234 Workerman[start.php] has been stopped
+2017-11-16 15:32:13 pid:9273 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:32:18 pid:9275 Worker[9275] process terminated with ERROR: E_ERROR "Call to a member function getPlayerID() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 144"
+2017-11-16 15:32:18 pid:9273 worker[YourAppBusinessWorker:9275] exit with status 65280
+2017-11-16 15:33:19 pid:9273 Workerman[start.php] Stopping ...
+2017-11-16 15:33:19 pid:9273 Workerman[start.php] has been stopped
+2017-11-16 15:33:19 pid:9306 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:33:23 pid:9308 Worker[9308] process terminated with ERROR: E_ERROR "Call to a member function getPlayerID() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 202"
+2017-11-16 15:33:23 pid:9306 worker[YourAppBusinessWorker:9308] exit with status 65280
+2017-11-16 15:33:27 pid:9306 Workerman[start.php] Stopping ...
+2017-11-16 15:33:27 pid:9306 Workerman[start.php] has been stopped
+2017-11-16 15:34:01 pid:9336 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:34:05 pid:9340 Worker[9340] process terminated with ERROR: E_ERROR "Call to a member function getPlayerID() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 202"
+2017-11-16 15:34:05 pid:9336 worker[YourAppBusinessWorker:9340] exit with status 65280
+2017-11-16 15:34:12 pid:9336 Workerman[start.php] Stopping ...
+2017-11-16 15:34:12 pid:9336 Workerman[start.php] has been stopped
+2017-11-16 15:34:41 pid:9360 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:34:45 pid:9362 Worker[9362] process terminated with ERROR: E_ERROR "Call to a member function setPai() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 212"
+2017-11-16 15:34:45 pid:9360 worker[YourAppBusinessWorker:9362] exit with status 65280
+2017-11-16 15:34:47 pid:9360 Workerman[start.php] Stopping ...
+2017-11-16 15:34:47 pid:9360 Workerman[start.php] has been stopped
+2017-11-16 15:35:37 pid:9390 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:35:43 pid:9394 Worker[9394] process terminated with ERROR: E_ERROR "Call to a member function setPai() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 212"
+2017-11-16 15:35:43 pid:9390 worker[YourAppBusinessWorker:9394] exit with status 65280
+2017-11-16 15:35:50 pid:9390 Workerman[start.php] Stopping ...
+2017-11-16 15:35:50 pid:9390 Workerman[start.php] has been stopped
+2017-11-16 15:35:59 pid:9411 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:36:08 pid:9411 Workerman[start.php] Stopping ...
+2017-11-16 15:36:08 pid:9411 Workerman[start.php] has been stopped
+2017-11-16 15:38:47 pid:9464 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:38:55 pid:9464 Workerman[start.php] Stopping ...
+2017-11-16 15:38:55 pid:9464 Workerman[start.php] has been stopped
+2017-11-16 15:40:18 pid:9500 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:40:43 pid:9500 Workerman[start.php] Stopping ...
+2017-11-16 15:40:43 pid:9500 Workerman[start.php] has been stopped
+2017-11-16 15:40:44 pid:9527 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:41:06 pid:9527 Workerman[start.php] Stopping ...
+2017-11-16 15:41:06 pid:9527 Workerman[start.php] has been stopped
+2017-11-16 15:41:21 pid:9550 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:41:40 pid:9550 Workerman[start.php] Stopping ...
+2017-11-16 15:41:40 pid:9550 Workerman[start.php] has been stopped
+2017-11-16 15:53:00 pid:9713 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:53:35 pid:9713 Workerman[start.php] Stopping ...
+2017-11-16 15:53:35 pid:9713 Workerman[start.php] has been stopped
+2017-11-16 15:54:14 pid:9749 Workerman[start.php] start in DEBUG mode
+2017-11-16 15:55:52 pid:9749 Workerman[start.php] Stopping ...
+2017-11-16 15:55:52 pid:9749 Workerman[start.php] has been stopped
+2017-11-16 15:55:52 pid:9768 Workerman[start.php] start in DEBUG mode
+2017-11-16 16:09:57 pid:9768 Workerman[start.php] Stopping ...
+2017-11-16 16:09:57 pid:9768 Workerman[start.php] has been stopped
+2017-11-16 16:09:58 pid:9867 Workerman[start.php] start in DEBUG mode
+2017-11-16 16:10:05 pid:9867 Workerman[start.php] Stopping ...
+2017-11-16 16:10:05 pid:9867 Workerman[start.php] has been stopped
+2017-11-16 16:16:35 pid:9902 Workerman[start.php] start in DEBUG mode
+2017-11-16 17:08:48 pid:9902 Workerman[start.php] Stopping ...
+2017-11-16 17:08:48 pid:9902 Workerman[start.php] has been stopped
+2017-11-17 08:45:32 pid:4394 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:44:52 pid:4394 Workerman[start.php] Stopping ...
+2017-11-17 09:44:52 pid:4394 Workerman[start.php] has been stopped
+2017-11-17 09:44:52 pid:5009 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:44:52 pid:5011 Worker[5011] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5010 Worker[5010] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5011] exit with status 65280
+2017-11-17 09:44:52 pid:5024 Worker[5024] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5012 Worker[5012] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5013 Worker[5013] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5024] exit with status 65280
+2017-11-17 09:44:52 pid:5015 Worker[5015] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5012] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5013] exit with status 65280
+2017-11-17 09:44:52 pid:5014 Worker[5014] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5025 Worker[5025] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5010] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5014] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5015] exit with status 65280
+2017-11-17 09:44:52 pid:5027 Worker[5027] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5025] exit with status 65280
+2017-11-17 09:44:52 pid:5026 Worker[5026] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5031 Worker[5031] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5026] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5031] exit with status 65280
+2017-11-17 09:44:52 pid:5028 Worker[5028] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5030 Worker[5030] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5027] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5028] exit with status 65280
+2017-11-17 09:44:52 pid:5033 Worker[5033] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5032 Worker[5032] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5030] exit with status 65280
+2017-11-17 09:44:52 pid:5029 Worker[5029] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5034 Worker[5034] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5032] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5033] exit with status 65280
+2017-11-17 09:44:52 pid:5035 Worker[5035] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5029] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5034] exit with status 65280
+2017-11-17 09:44:52 pid:5036 Worker[5036] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5035] exit with status 65280
+2017-11-17 09:44:52 pid:5040 Worker[5040] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5038 Worker[5038] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5037 Worker[5037] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5038] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5040] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5036] exit with status 65280
+2017-11-17 09:44:52 pid:5041 Worker[5041] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5037] exit with status 65280
+2017-11-17 09:44:52 pid:5042 Worker[5042] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5041] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5042] exit with status 65280
+2017-11-17 09:44:52 pid:5043 Worker[5043] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5045 Worker[5045] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5039 Worker[5039] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5043] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5039] exit with status 65280
+2017-11-17 09:44:52 pid:5044 Worker[5044] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5047 Worker[5047] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5044] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5047] exit with status 65280
+2017-11-17 09:44:52 pid:5046 Worker[5046] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5048 Worker[5048] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5049 Worker[5049] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5045] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5046] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5048] exit with status 65280
+2017-11-17 09:44:52 pid:5051 Worker[5051] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5050 Worker[5050] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5049] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5050] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5051] exit with status 65280
+2017-11-17 09:44:52 pid:5052 Worker[5052] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5054 Worker[5054] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5053 Worker[5053] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5054] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5053] exit with status 65280
+2017-11-17 09:44:52 pid:5055 Worker[5055] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5057 Worker[5057] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5056 Worker[5056] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5058 Worker[5058] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5052] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5055] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5057] exit with status 65280
+2017-11-17 09:44:52 pid:5059 Worker[5059] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5058] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5056] exit with status 65280
+2017-11-17 09:44:52 pid:5060 Worker[5060] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5059] exit with status 65280
+2017-11-17 09:44:52 pid:5061 Worker[5061] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5060] exit with status 65280
+2017-11-17 09:44:52 pid:5062 Worker[5062] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5063 Worker[5063] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5063] exit with status 65280
+2017-11-17 09:44:52 pid:5066 Worker[5066] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5064 Worker[5064] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5061] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5062] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5066] exit with status 65280
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5064] exit with status 65280
+2017-11-17 09:44:52 pid:5065 Worker[5065] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5067 Worker[5067] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:52 pid:5009 worker[YourAppBusinessWorker:5065] exit with status 65280
+2017-11-17 09:44:53 pid:5070 Worker[5070] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5068 Worker[5068] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5067] exit with status 65280
+2017-11-17 09:44:53 pid:5071 Worker[5071] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5070] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5071] exit with status 65280
+2017-11-17 09:44:53 pid:5073 Worker[5073] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5075 Worker[5075] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5072 Worker[5072] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5069 Worker[5069] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5073] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5075] exit with status 65280
+2017-11-17 09:44:53 pid:5074 Worker[5074] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5068] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5069] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5072] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5074] exit with status 65280
+2017-11-17 09:44:53 pid:5077 Worker[5077] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5076 Worker[5076] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5079 Worker[5079] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5077] exit with status 65280
+2017-11-17 09:44:53 pid:5081 Worker[5081] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5076] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5079] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5081] exit with status 65280
+2017-11-17 09:44:53 pid:5078 Worker[5078] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5078] exit with status 65280
+2017-11-17 09:44:53 pid:5080 Worker[5080] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5082 Worker[5082] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5085 Worker[5085] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5083 Worker[5083] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5085] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5082] exit with status 65280
+2017-11-17 09:44:53 pid:5084 Worker[5084] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5088 Worker[5088] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5087 Worker[5087] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5080] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5084] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5088] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5087] exit with status 65280
+2017-11-17 09:44:53 pid:5086 Worker[5086] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5089 Worker[5089] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5083] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5086] exit with status 65280
+2017-11-17 09:44:53 pid:5090 Worker[5090] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5089] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5090] exit with status 65280
+2017-11-17 09:44:53 pid:5091 Worker[5091] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5091] exit with status 65280
+2017-11-17 09:44:53 pid:5094 Worker[5094] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5092 Worker[5092] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5095 Worker[5095] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5094] exit with status 65280
+2017-11-17 09:44:53 pid:5093 Worker[5093] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5096 Worker[5096] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5095] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5092] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5093] exit with status 65280
+2017-11-17 09:44:53 pid:5097 Worker[5097] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5096] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5097] exit with status 65280
+2017-11-17 09:44:53 pid:5101 Worker[5101] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5100 Worker[5100] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5098 Worker[5098] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5101] exit with status 65280
+2017-11-17 09:44:53 pid:5099 Worker[5099] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5098] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5100] exit with status 65280
+2017-11-17 09:44:53 pid:5102 Worker[5102] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5103 Worker[5103] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5104 Worker[5104] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5099] exit with status 65280
+2017-11-17 09:44:53 pid:5106 Worker[5106] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5103] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5104] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5106] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5102] exit with status 65280
+2017-11-17 09:44:53 pid:5105 Worker[5105] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5108 Worker[5108] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5107 Worker[5107] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5105] exit with status 65280
+2017-11-17 09:44:53 pid:5111 Worker[5111] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5110 Worker[5110] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5107] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5108] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5111] exit with status 65280
+2017-11-17 09:44:53 pid:5112 Worker[5112] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5110] exit with status 65280
+2017-11-17 09:44:53 pid:5114 Worker[5114] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5109 Worker[5109] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5114] exit with status 65280
+2017-11-17 09:44:53 pid:5115 Worker[5115] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5113 Worker[5113] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5112] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5115] exit with status 65280
+2017-11-17 09:44:53 pid:5117 Worker[5117] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5109] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5113] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5117] exit with status 65280
+2017-11-17 09:44:53 pid:5116 Worker[5116] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5118 Worker[5118] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5122 Worker[5122] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5119 Worker[5119] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5116] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5122] exit with status 65280
+2017-11-17 09:44:53 pid:5120 Worker[5120] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5118] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5119] exit with status 65280
+2017-11-17 09:44:53 pid:5121 Worker[5121] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5124 Worker[5124] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5123 Worker[5123] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5121] exit with status 65280
+2017-11-17 09:44:53 pid:5126 Worker[5126] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5120] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5123] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5124] exit with status 65280
+2017-11-17 09:44:53 pid:5127 Worker[5127] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5126] exit with status 65280
+2017-11-17 09:44:53 pid:5130 Worker[5130] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5127] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5130] exit with status 65280
+2017-11-17 09:44:53 pid:5131 Worker[5131] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5128 Worker[5128] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5125 Worker[5125] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5133 Worker[5133] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5131] exit with status 65280
+2017-11-17 09:44:53 pid:5129 Worker[5129] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5132 Worker[5132] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5125] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5128] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5133] exit with status 65280
+2017-11-17 09:44:53 pid:5134 Worker[5134] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5129] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5132] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5134] exit with status 65280
+2017-11-17 09:44:53 pid:5137 Worker[5137] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5138 Worker[5138] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5136 Worker[5136] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5137] exit with status 65280
+2017-11-17 09:44:53 pid:5135 Worker[5135] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5139 Worker[5139] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5135] exit with status 65280
+2017-11-17 09:44:53 pid:5140 Worker[5140] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5136] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5138] exit with status 65280
+2017-11-17 09:44:53 pid:5141 Worker[5141] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5139] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5140] exit with status 65280
+2017-11-17 09:44:53 pid:5143 Worker[5143] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5142 Worker[5142] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5146 Worker[5146] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5141] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5143] exit with status 65280
+2017-11-17 09:44:53 pid:5145 Worker[5145] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5144 Worker[5144] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5142] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5146] exit with status 65280
+2017-11-17 09:44:53 pid:5147 Worker[5147] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5145] exit with status 65280
+2017-11-17 09:44:53 pid:5149 Worker[5149] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5148 Worker[5148] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5144] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5147] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5149] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5148] exit with status 65280
+2017-11-17 09:44:53 pid:5152 Worker[5152] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5153 Worker[5153] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5150 Worker[5150] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5155 Worker[5155] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5151 Worker[5151] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5152] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5150] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5155] exit with status 65280
+2017-11-17 09:44:53 pid:5154 Worker[5154] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5151] exit with status 65280
+2017-11-17 09:44:53 pid:5156 Worker[5156] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5158 Worker[5158] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5153] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5154] exit with status 65280
+2017-11-17 09:44:53 pid:5159 Worker[5159] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5156] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5158] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5159] exit with status 65280
+2017-11-17 09:44:53 pid:5160 Worker[5160] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5157 Worker[5157] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5160] exit with status 65280
+2017-11-17 09:44:53 pid:5162 Worker[5162] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5164 Worker[5164] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5157] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5162] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5164] exit with status 65280
+2017-11-17 09:44:53 pid:5165 Worker[5165] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5161 Worker[5161] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5163 Worker[5163] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5161] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5165] exit with status 65280
+2017-11-17 09:44:53 pid:5167 Worker[5167] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5166 Worker[5166] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5163] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5167] exit with status 65280
+2017-11-17 09:44:53 pid:5170 Worker[5170] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5168 Worker[5168] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5166] exit with status 65280
+2017-11-17 09:44:53 pid:5169 Worker[5169] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5171 Worker[5171] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5168] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5170] exit with status 65280
+2017-11-17 09:44:53 pid:5172 Worker[5172] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5169] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5171] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5172] exit with status 65280
+2017-11-17 09:44:53 pid:5174 Worker[5174] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5175 Worker[5175] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5173 Worker[5173] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5174] exit with status 65280
+2017-11-17 09:44:53 pid:5177 Worker[5177] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5173] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5175] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5177] exit with status 65280
+2017-11-17 09:44:53 pid:5178 Worker[5178] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5176 Worker[5176] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5179 Worker[5179] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5178] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5179] exit with status 65280
+2017-11-17 09:44:53 pid:5181 Worker[5181] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5182 Worker[5182] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5183 Worker[5183] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5180 Worker[5180] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5176] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5181] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5182] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5180] exit with status 65280
+2017-11-17 09:44:53 pid:5186 Worker[5186] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5185 Worker[5185] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5183] exit with status 65280
+2017-11-17 09:44:53 pid:5188 Worker[5188] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5184 Worker[5184] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5186] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5184] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5185] exit with status 65280
+2017-11-17 09:44:53 pid:5187 Worker[5187] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5188] exit with status 65280
+2017-11-17 09:44:53 pid:5191 Worker[5191] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5189 Worker[5189] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5190 Worker[5190] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5187] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5191] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5189] exit with status 65280
+2017-11-17 09:44:53 pid:5192 Worker[5192] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5190] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5192] exit with status 65280
+2017-11-17 09:44:53 pid:5196 Worker[5196] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5193 Worker[5193] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5196] exit with status 65280
+2017-11-17 09:44:53 pid:5195 Worker[5195] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5198 Worker[5198] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5193] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5195] exit with status 65280
+2017-11-17 09:44:53 pid:5194 Worker[5194] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5197 Worker[5197] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5194] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5198] exit with status 65280
+2017-11-17 09:44:53 pid:5199 Worker[5199] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5197] exit with status 65280
+2017-11-17 09:44:53 pid:5200 Worker[5200] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5199] exit with status 65280
+2017-11-17 09:44:53 pid:5203 Worker[5203] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5200] exit with status 65280
+2017-11-17 09:44:53 pid:5205 Worker[5205] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5202 Worker[5202] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5201 Worker[5201] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5204 Worker[5204] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5203] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5205] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5201] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5202] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5204] exit with status 65280
+2017-11-17 09:44:53 pid:5208 Worker[5208] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5206 Worker[5206] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5207 Worker[5207] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5211 Worker[5211] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5206] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5208] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5211] exit with status 65280
+2017-11-17 09:44:53 pid:5209 Worker[5209] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5210 Worker[5210] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5212 Worker[5212] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 Workerman[start.php] Stopping ...
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5209] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5210] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5207] exit with status 65280
+2017-11-17 09:44:53 pid:5214 Worker[5214] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5213 Worker[5213] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5212] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5214] exit with status 65280
+2017-11-17 09:44:53 pid:5009 worker[YourAppBusinessWorker:5213] exit with status 65280
+2017-11-17 09:44:53 pid:5009 Workerman[start.php] has been stopped
+2017-11-17 09:46:02 pid:5236 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:46:02 pid:5237 Worker[5237] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5241 Worker[5241] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5240 Worker[5240] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5237] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5240] exit with status 65280
+2017-11-17 09:46:02 pid:5239 Worker[5239] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5241] exit with status 65280
+2017-11-17 09:46:02 pid:5242 Worker[5242] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5238 Worker[5238] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5242] exit with status 65280
+2017-11-17 09:46:02 pid:5253 Worker[5253] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5238] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5239] exit with status 65280
+2017-11-17 09:46:02 pid:5251 Worker[5251] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5253] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5251] exit with status 65280
+2017-11-17 09:46:02 pid:5257 Worker[5257] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5256 Worker[5256] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5252 Worker[5252] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5254 Worker[5254] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5257] exit with status 65280
+2017-11-17 09:46:02 pid:5255 Worker[5255] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5259 Worker[5259] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5254] exit with status 65280
+2017-11-17 09:46:02 pid:5258 Worker[5258] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5256] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5252] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5255] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5258] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5259] exit with status 65280
+2017-11-17 09:46:02 pid:5260 Worker[5260] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5262 Worker[5262] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5260] exit with status 65280
+2017-11-17 09:46:02 pid:5265 Worker[5265] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5263 Worker[5263] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5261 Worker[5261] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5266 Worker[5266] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5263] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5261] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5265] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5266] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5262] exit with status 65280
+2017-11-17 09:46:02 pid:5264 Worker[5264] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5268 Worker[5268] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5271 Worker[5271] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5270 Worker[5270] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5264] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5271] exit with status 65280
+2017-11-17 09:46:02 pid:5267 Worker[5267] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5269 Worker[5269] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5267] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5270] exit with status 65280
+2017-11-17 09:46:02 pid:5273 Worker[5273] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5272 Worker[5272] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5268] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5269] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5273] exit with status 65280
+2017-11-17 09:46:02 pid:5274 Worker[5274] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5272] exit with status 65280
+2017-11-17 09:46:02 pid:5275 Worker[5275] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5278 Worker[5278] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5277 Worker[5277] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5274] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5275] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5278] exit with status 65280
+2017-11-17 09:46:02 pid:5276 Worker[5276] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5279 Worker[5279] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5276] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5277] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5279] exit with status 65280
+2017-11-17 09:46:02 pid:5281 Worker[5281] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5282 Worker[5282] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5281] exit with status 65280
+2017-11-17 09:46:02 pid:5280 Worker[5280] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5280] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5282] exit with status 65280
+2017-11-17 09:46:02 pid:5283 Worker[5283] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5285 Worker[5285] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5287 Worker[5287] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5284 Worker[5284] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5283] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5285] exit with status 65280
+2017-11-17 09:46:02 pid:5286 Worker[5286] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5284] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5287] exit with status 65280
+2017-11-17 09:46:02 pid:5288 Worker[5288] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5290 Worker[5290] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5289 Worker[5289] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5286] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5290] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5288] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5289] exit with status 65280
+2017-11-17 09:46:02 pid:5293 Worker[5293] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5292 Worker[5292] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5295 Worker[5295] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5292] exit with status 65280
+2017-11-17 09:46:02 pid:5294 Worker[5294] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5296 Worker[5296] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5291 Worker[5291] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5295] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5291] exit with status 65280
+2017-11-17 09:46:02 pid:5298 Worker[5298] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5293] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5294] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5296] exit with status 65280
+2017-11-17 09:46:02 pid:5297 Worker[5297] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5299 Worker[5299] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5302 Worker[5302] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5297] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5298] exit with status 65280
+2017-11-17 09:46:02 pid:5300 Worker[5300] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5301 Worker[5301] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5299] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5300] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5302] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5301] exit with status 65280
+2017-11-17 09:46:02 pid:5308 Worker[5308] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5306 Worker[5306] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5303 Worker[5303] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5304 Worker[5304] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5308] exit with status 65280
+2017-11-17 09:46:02 pid:5305 Worker[5305] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5306] exit with status 65280
+2017-11-17 09:46:02 pid:5307 Worker[5307] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5303] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5305] exit with status 65280
+2017-11-17 09:46:02 pid:5309 Worker[5309] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5307] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5309] exit with status 65280
+2017-11-17 09:46:02 pid:5312 Worker[5312] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5304] exit with status 65280
+2017-11-17 09:46:02 pid:5310 Worker[5310] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5311 Worker[5311] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5312] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5310] exit with status 65280
+2017-11-17 09:46:02 pid:5316 Worker[5316] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5311] exit with status 65280
+2017-11-17 09:46:02 pid:5314 Worker[5314] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5316] exit with status 65280
+2017-11-17 09:46:02 pid:5313 Worker[5313] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5315 Worker[5315] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5317 Worker[5317] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5313] exit with status 65280
+2017-11-17 09:46:02 pid:5318 Worker[5318] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5314] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5315] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5317] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5318] exit with status 65280
+2017-11-17 09:46:02 pid:5320 Worker[5320] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5319 Worker[5319] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5320] exit with status 65280
+2017-11-17 09:46:02 pid:5322 Worker[5322] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5319] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5322] exit with status 65280
+2017-11-17 09:46:02 pid:5324 Worker[5324] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5321 Worker[5321] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5325 Worker[5325] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5321] exit with status 65280
+2017-11-17 09:46:02 pid:5323 Worker[5323] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5325] exit with status 65280
+2017-11-17 09:46:02 pid:5327 Worker[5327] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5326 Worker[5326] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5328 Worker[5328] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5323] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5324] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5327] exit with status 65280
+2017-11-17 09:46:02 pid:5329 Worker[5329] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5326] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5328] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5329] exit with status 65280
+2017-11-17 09:46:02 pid:5332 Worker[5332] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5331 Worker[5331] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5330 Worker[5330] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5330] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5331] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5332] exit with status 65280
+2017-11-17 09:46:02 pid:5334 Worker[5334] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5333 Worker[5333] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5335 Worker[5335] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5334] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5333] exit with status 65280
+2017-11-17 09:46:02 pid:5337 Worker[5337] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5335] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5337] exit with status 65280
+2017-11-17 09:46:02 pid:5336 Worker[5336] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5341 Worker[5341] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5336] exit with status 65280
+2017-11-17 09:46:02 pid:5338 Worker[5338] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5342 Worker[5342] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5339 Worker[5339] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5341] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5338] exit with status 65280
+2017-11-17 09:46:02 pid:5340 Worker[5340] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5342] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5339] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5340] exit with status 65280
+2017-11-17 09:46:02 pid:5343 Worker[5343] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5347 Worker[5347] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5348 Worker[5348] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5344 Worker[5344] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5343] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5347] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5348] exit with status 65280
+2017-11-17 09:46:02 pid:5346 Worker[5346] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5345 Worker[5345] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5344] exit with status 65280
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5345] exit with status 65280
+2017-11-17 09:46:02 pid:5349 Worker[5349] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5346] exit with status 65280
+2017-11-17 09:46:02 pid:5351 Worker[5351] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5236 worker[YourAppBusinessWorker:5349] exit with status 65280
+2017-11-17 09:46:02 pid:5350 Worker[5350] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5354 Worker[5354] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5355 Worker[5355] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:02 pid:5352 Worker[5352] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5350] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5351] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5354] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5352] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5355] exit with status 65280
+2017-11-17 09:46:03 pid:5353 Worker[5353] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5353] exit with status 65280
+2017-11-17 09:46:03 pid:5359 Worker[5359] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5357 Worker[5357] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5356 Worker[5356] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5361 Worker[5361] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5360 Worker[5360] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5359] exit with status 65280
+2017-11-17 09:46:03 pid:5358 Worker[5358] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5357] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5356] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5358] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5361] exit with status 65280
+2017-11-17 09:46:03 pid:5362 Worker[5362] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5363 Worker[5363] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5366 Worker[5366] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5360] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5362] exit with status 65280
+2017-11-17 09:46:03 pid:5364 Worker[5364] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5363] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5364] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5366] exit with status 65280
+2017-11-17 09:46:03 pid:5365 Worker[5365] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5367 Worker[5367] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5365] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5367] exit with status 65280
+2017-11-17 09:46:03 pid:5368 Worker[5368] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5368] exit with status 65280
+2017-11-17 09:46:03 pid:5371 Worker[5371] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5369 Worker[5369] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5373 Worker[5373] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5370 Worker[5370] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5369] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5370] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5371] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5373] exit with status 65280
+2017-11-17 09:46:03 pid:5374 Worker[5374] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5372 Worker[5372] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5372] exit with status 65280
+2017-11-17 09:46:03 pid:5378 Worker[5378] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5374] exit with status 65280
+2017-11-17 09:46:03 pid:5376 Worker[5376] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5375 Worker[5375] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5376] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5378] exit with status 65280
+2017-11-17 09:46:03 pid:5377 Worker[5377] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5380 Worker[5380] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5379 Worker[5379] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5375] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5377] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5380] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5379] exit with status 65280
+2017-11-17 09:46:03 pid:5382 Worker[5382] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5381 Worker[5381] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5383 Worker[5383] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5386 Worker[5386] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5381] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5382] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5383] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5386] exit with status 65280
+2017-11-17 09:46:03 pid:5384 Worker[5384] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5385 Worker[5385] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5387 Worker[5387] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5384] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5385] exit with status 65280
+2017-11-17 09:46:03 pid:5390 Worker[5390] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5387] exit with status 65280
+2017-11-17 09:46:03 pid:5388 Worker[5388] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5390] exit with status 65280
+2017-11-17 09:46:03 pid:5389 Worker[5389] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5388] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5389] exit with status 65280
+2017-11-17 09:46:03 pid:5394 Worker[5394] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5392 Worker[5392] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5394] exit with status 65280
+2017-11-17 09:46:03 pid:5391 Worker[5391] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5393 Worker[5393] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5395 Worker[5395] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5391] exit with status 65280
+2017-11-17 09:46:03 pid:5396 Worker[5396] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5397 Worker[5397] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5392] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5393] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5395] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5397] exit with status 65280
+2017-11-17 09:46:03 pid:5401 Worker[5401] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5402 Worker[5402] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5401] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5402] exit with status 65280
+2017-11-17 09:46:03 pid:5400 Worker[5400] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5399 Worker[5399] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5398 Worker[5398] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5396] exit with status 65280
+2017-11-17 09:46:03 pid:5404 Worker[5404] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5399] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5400] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5404] exit with status 65280
+2017-11-17 09:46:03 pid:5405 Worker[5405] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5403 Worker[5403] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5398] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5403] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5405] exit with status 65280
+2017-11-17 09:46:03 pid:5406 Worker[5406] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5407 Worker[5407] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5408 Worker[5408] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5406] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5407] exit with status 65280
+2017-11-17 09:46:03 pid:5236 Workerman[start.php] Stopping ...
+2017-11-17 09:46:03 pid:5409 Worker[5409] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5411 Worker[5411] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5411] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5409] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5408] exit with status 65280
+2017-11-17 09:46:03 pid:5412 Worker[5412] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5413 Worker[5413] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5412] exit with status 65280
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5413] exit with status 65280
+2017-11-17 09:46:03 pid:5410 Worker[5410] process terminated with ERROR: E_PARSE "syntax error, unexpected '[' in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 240"
+2017-11-17 09:46:03 pid:5236 worker[YourAppBusinessWorker:5410] exit with status 65280
+2017-11-17 09:46:03 pid:5236 Workerman[start.php] has been stopped
+2017-11-17 09:46:37 pid:5422 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:46:44 pid:5425 Worker[5425] process terminated with ERROR: E_ERROR "Call to a member function moPai() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 209"
+2017-11-17 09:46:44 pid:5422 worker[YourAppBusinessWorker:5425] exit with status 65280
+2017-11-17 09:47:01 pid:5422 Workerman[start.php] Stopping ...
+2017-11-17 09:47:01 pid:5422 Workerman[start.php] has been stopped
+2017-11-17 09:48:50 pid:5469 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:48:54 pid:5474 Worker[5474] process terminated with ERROR: E_ERROR "Cannot access private property MaJongRoom::$majongManager in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 209"
+2017-11-17 09:48:54 pid:5469 worker[YourAppBusinessWorker:5474] exit with status 65280
+2017-11-17 09:49:02 pid:5469 Workerman[start.php] Stopping ...
+2017-11-17 09:49:02 pid:5469 Workerman[start.php] has been stopped
+2017-11-17 09:50:10 pid:5503 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:50:14 pid:5505 Worker[5505] process terminated with ERROR: E_ERROR "Call to a member function createMajong() on a non-object in /root/ChessGameServer/Applications/YourApp/Game/Object/MaJong/MaJongRoom.php on line 195"
+2017-11-17 09:50:14 pid:5503 worker[YourAppBusinessWorker:5505] exit with status 65280
+2017-11-17 09:50:18 pid:5503 Workerman[start.php] Stopping ...
+2017-11-17 09:50:18 pid:5503 Workerman[start.php] has been stopped
+2017-11-17 09:50:46 pid:5526 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:50:50 pid:5528 Worker[5528] process terminated with ERROR: E_ERROR "Cannot access private property MaJongRoom::$majongManager in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 209"
+2017-11-17 09:50:50 pid:5526 worker[YourAppBusinessWorker:5528] exit with status 65280
+2017-11-17 09:50:54 pid:5526 Workerman[start.php] Stopping ...
+2017-11-17 09:50:54 pid:5526 Workerman[start.php] has been stopped
+2017-11-17 09:53:55 pid:5585 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:54:36 pid:5585 Workerman[start.php] Stopping ...
+2017-11-17 09:54:36 pid:5585 Workerman[start.php] has been stopped
+2017-11-17 09:54:36 pid:5607 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:54:41 pid:5607 Workerman[start.php] Stopping ...
+2017-11-17 09:54:41 pid:5607 Workerman[start.php] has been stopped
+2017-11-17 09:55:23 pid:5632 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:55:53 pid:5632 Workerman[start.php] Stopping ...
+2017-11-17 09:55:53 pid:5632 Workerman[start.php] Stopping ...
+2017-11-17 09:55:53 pid:5632 Workerman[start.php] Stopping ...
+2017-11-17 09:55:55 pid:5632 worker[YourAppBusinessWorker:5636] exit with status 9
+2017-11-17 09:55:55 pid:5632 Workerman[start.php] has been stopped
+2017-11-17 09:55:55 pid:5653 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:55:57 pid:5653 Workerman[start.php] Stopping ...
+2017-11-17 09:55:57 pid:5653 Workerman[start.php] has been stopped
+2017-11-17 09:55:58 pid:5668 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:58:47 pid:5668 Workerman[start.php] Stopping ...
+2017-11-17 09:58:47 pid:5668 Workerman[start.php] Stopping ...
+2017-11-17 09:58:48 pid:5668 Workerman[start.php] Stopping ...
+2017-11-17 09:58:48 pid:5668 Workerman[start.php] Stopping ...
+2017-11-17 09:58:49 pid:5668 worker[YourAppBusinessWorker:5670] exit with status 9
+2017-11-17 09:58:49 pid:5668 Workerman[start.php] has been stopped
+2017-11-17 09:58:56 pid:5705 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:59:05 pid:5709 Worker[5709] process terminated with ERROR: E_ERROR "Cannot access private property MaJongRoom::$majongManager in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 214"
+2017-11-17 09:59:05 pid:5705 worker[YourAppBusinessWorker:5709] exit with status 65280
+2017-11-17 09:59:28 pid:5705 Workerman[start.php] Stopping ...
+2017-11-17 09:59:28 pid:5705 Workerman[start.php] has been stopped
+2017-11-17 09:59:29 pid:5729 Workerman[start.php] start in DEBUG mode
+2017-11-17 09:59:33 pid:5732 Worker[5732] process terminated with ERROR: E_ERROR "Cannot access private property MaJongRoom::$majongManager in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 214"
+2017-11-17 09:59:33 pid:5729 worker[YourAppBusinessWorker:5732] exit with status 65280
+2017-11-17 09:59:39 pid:5729 Workerman[start.php] Stopping ...
+2017-11-17 09:59:39 pid:5729 Workerman[start.php] has been stopped
+2017-11-17 10:00:34 pid:5765 Workerman[start.php] start in DEBUG mode
+2017-11-17 10:00:39 pid:5766 Worker[5766] process terminated with ERROR: E_ERROR "Cannot access private property MaJongRoom::$majongManager in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 214"
+2017-11-17 10:00:39 pid:5765 worker[YourAppBusinessWorker:5766] exit with status 65280
+2017-11-17 10:00:42 pid:5765 Workerman[start.php] Stopping ...
+2017-11-17 10:00:42 pid:5765 Workerman[start.php] has been stopped
+2017-11-17 10:01:05 pid:5805 Workerman[start.php] start in DEBUG mode
+2017-11-17 10:01:12 pid:5805 Workerman[start.php] Stopping ...
+2017-11-17 10:01:14 pid:5805 worker[YourAppBusinessWorker:5811] exit with status 9
+2017-11-17 10:01:14 pid:5805 Workerman[start.php] has been stopped
+2017-11-17 10:01:32 pid:5821 Workerman[start.php] start in DEBUG mode
+2017-11-17 10:01:48 pid:5821 Workerman[start.php] Stopping ...
+2017-11-17 10:01:48 pid:5821 Workerman[start.php] Stopping ...
+2017-11-17 10:01:49 pid:5821 Workerman[start.php] Stopping ...
+2017-11-17 10:01:50 pid:5821 worker[YourAppBusinessWorker:5826] exit with status 9
+2017-11-17 10:01:50 pid:5821 Workerman[start.php] has been stopped
+2017-11-17 10:01:59 pid:5841 Workerman[start.php] start in DEBUG mode
+2017-11-17 10:02:16 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:16 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:16 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:17 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:17 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:17 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:17 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:17 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:18 pid:5841 Workerman[start.php] Stopping ...
+2017-11-17 10:02:18 pid:5841 worker[YourAppBusinessWorker:5844] exit with status 9
+2017-11-17 10:02:18 pid:5841 Workerman[start.php] has been stopped
+2017-11-17 10:02:21 pid:5861 Workerman[start.php] start in DEBUG mode
+2017-11-17 10:02:35 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:35 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:35 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:35 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:35 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:36 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] Stopping ...
+2017-11-17 10:02:37 pid:5861 worker[YourAppBusinessWorker:5865] exit with status 9
+2017-11-17 10:02:37 pid:5861 Workerman[start.php] has been stopped
+2017-11-17 10:03:09 pid:5882 Workerman[start.php] start in DEBUG mode
+2017-11-17 10:03:12 pid:5884 Worker[5884] process terminated with ERROR: E_ERROR "Call to undefined method stdClass::beginGame() in /root/ChessGameServer/Applications/YourApp/Game/Server/MaJongRequestProcess.php on line 194"
+2017-11-17 10:03:12 pid:5882 worker[YourAppBusinessWorker:5884] exit with status 65280
+2017-11-17 10:03:18 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:19 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:19 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:19 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:19 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] Stopping ...
+2017-11-17 10:03:20 pid:5882 worker[YourAppBusinessWorker:5897] exit with status 9
+2017-11-17 10:03:20 pid:5882 Workerman[start.php] has been stopped
